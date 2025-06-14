@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kyara Beverages - Refreshment, Reimagined. Premium millet-based fruit drinks rooted in tradition and powered by innovation.">
+    <meta name="keywords" content="millet drinks, fruit beverages, healthy drinks, organic beverages, traditional drinks">
+    <title>Kyara Beverages - Refreshment, Reimagined</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+    <div class="container">
+        <div class="header-content">
+        <div class="logo">
+            <div class="logo-icon">
+            <img src="images/icon.png" alt="Kyara logo" class="logo-img" />
+            </div>
+            <span class="logo-text">Kyara</span>
+        </div>
+        <nav class="nav">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        </div>
+    </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Video Background -->
+        <video class="hero-video-bg" autoplay muted loop playsinline>
+            <source src="videos/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Optional Decorations (you can keep/remove) -->
+        <div class="hero-decorations">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <div class="hero-logo-icon">
+                        <img src="images/icon.png" alt="Kyara logo" class="logo-img1" />
+                    </div>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Kyara</span>
+                    <span class="hero-title-sub">Beverages</span>
+                </h1>
+                <h2 class="hero-tagline">Refreshment, Reimagined</h2>
+                <p class="hero-description">
+                At Kyara Beverages,we craft unique millet-based fruit drinks that blend tradition with innovation. 
+                Our mission is to nourish and refresh using pure,natural ingredients-bringing you wholesome flavor with every sip.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('products')">
+                        <span>Explore Products</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12,5 19,12 12,19"></polyline>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('about')">
+                        Learn Our Story
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    About <span class="gradient-text">Kyara</span>
+                </h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        At Kyara Beverages, we're reimagining refreshment with millet-based fruit drinks. 
+                        Rooted in tradition and powered by innovation, we craft beverages that honor ancient 
+                        grains while delivering modern taste experiences.
+                    </p>
+                    <p class="about-paragraph">
+                        Our commitment to sustainability and wellness drives every decision we make, from 
+                        sourcing the finest millet to creating flavors that delight and nourish. Each sip 
+                        tells a story of heritage, health, and hope for a better tomorrow.
+                    </p>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="about-card">
+                        <div class="about-card-icon">
+                            <video class="hero-video-bg" autoplay muted loop playsinline>
+                                <source src="videos/innovation.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-purple">
+                        <img src="images/hash.png" alt="hash" class="logo-img" />
+                    </div>
+                    <h3 class="feature-title">Natural Ingredients</h3>
+                    <p class="feature-description">Premium millet and fresh fruits, sourced responsibly for optimal nutrition and taste.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-orange">
+                        <img src="images/heart.png" alt="email" class="logo-img" />
+                    </div>
+                    <h3 class="feature-title">Health Focused</h3>
+                    <p class="feature-description">Crafted with wellness in mind, our drinks provide essential nutrients and energy.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon feature-icon-teal">
+                        <img src="images/star.png" alt="email" class="logo-img" />
+                    </div>
+                    <h3 class="feature-title">Innovation</h3>
+                    <p class="feature-description">Modern techniques preserve traditional flavors while creating new taste experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Our <span class="gradient-text">Products</span>
+                </h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Discover our signature collection of millet-based fruit beverages, 
+                    each crafted with care and bursting with natural flavors.
+                </p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-video">
+                        <video class="product-1" autoplay muted loop playsinline>
+                            <source src="videos/product1.mp4" type="video/mp4">
+                        </video>
+                       
+                        <div class="product-overlay "></div>
+                        <div class="product-rating">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Blushing Strawberry Fusion</h3>
+                        <p class="product-description">Lush berries meet wholesome millet in a fizzy, feel-good fusion of flavor.</p>
+                        <button class="product-btn">
+                            <span>Try Now</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-video">
+                        <video class="product-2" autoplay muted loop playsinline>
+                            <source src="videos/product2.mp4" type="video/mp4">
+                        </video>
+                        
+                        <div class="product-overlay "></div>
+                        <div class="product-rating">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <span>4.8</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Pomegranate Millet Bloom</h3>
+                        <p class="product-description">Bold pomegranate essence meets nourishing millet in a crisp, naturally energizing fusion.</p>
+                        <button class="product-btn">
+                            <span>Try Now</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-video">
+                        <video class="product-3" autoplay muted loop playsinline>
+                            <source src="videos/product3.mp4" type="video/mp4">
+                        </video>
+                        <div class="product-overlay "></div>
+                        <div class="product-rating">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                            </svg>
+                            <span>4.7</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Mango Millet Bliss</h3>
+                        <p class="product-description">Ripe mango meets hearty millet in a lightly sparkling drink that's both soothing and vibrant.</p>
+                        <button class="product-btn">
+                            <span>Try Now</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12,5 19,12 12,19"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-footer">
+                <button class="btn btn-outline">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Get in <span class="gradient-text">Touch</span>
+                </h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Ready to experience the future of refreshment? We'd love to hear from you!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3 class="contact-title">Let's Connect</h3>
+                        <p class="contact-description">
+                            Whether you have questions about our products, want to explore partnerships, 
+                            or simply want to share your thoughts, we're here to listen.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon contact-icon-purple">
+                                <img src="images/email.png" alt="email" class="logo-img" />
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="contact-label">Email</h4>
+                                <p class="contact-value">abc@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon contact-icon-orange">
+                                <img src="images/phone.png" alt="phone" class="logo-img" />
+                                
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="contact-label">Phone</h4>
+                                <p class="contact-value">+1(123) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon contact-icon-teal">
+                                <img src="images/location.png" alt="location" class="logo-img" />
+                                
+                            </div>
+                            <div class="contact-text">
+                                <h4 class="contact-label">Address</h4>
+                                <p class="contact-value">123 Innovation Drive<br>Health Valley, CA 94025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell us about your inquiry..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <span>Send Message</span>
+                            <img src="images/send-message.png" alt="Send Message" class="logo-img" />
+                           
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                             <img src="images/icon.png" alt="Kyara logo" class="logo-img" />
+                            
+                        </div>
+                        <span class="footer-logo-text">Kyara Beverages</span>
+                    </div>
+                    <p class="footer-description">
+                        Reimagining refreshment with premium millet-based fruit drinks. 
+                        Where tradition meets innovation for a healthier, more sustainable future.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <img src="images/facebook.png" alt="facebook" class="logo-img" />
+                            
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="images/twitter.png" alt="twitter" class="logo-img" />
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="images/instagram.png" alt="twitter" class="logo-img" />
+                            
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="images/linkedin.png" alt="twitter" class="logo-img" />
+                           
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="#home" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#products" class="footer-link">Products</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-legal">
+                    <h3 class="footer-title">Legal</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Terms of Service</a></li>
+                        <li><a href="#" class="footer-link">Cookie Policy</a></li>
+                        <li><a href="#" class="footer-link">Sustainability</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2025 Kyara Beverages. All rights reserved. Refreshment, Reimagined.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
