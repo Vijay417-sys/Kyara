@@ -1,7 +1,6 @@
 # KYARA
 # Kyara Beverages Website
 
-![Kyara Icon](https://images/icon.png)
 
 A modern, responsive website for Kyara Beverages showcasing their premium millet-based fruit drinks. The site features smooth animations, video backgrounds, and an elegant design.
 
