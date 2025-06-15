@@ -94,45 +94,42 @@ A modern, responsive website for Kyara Beverages showcasing their premium millet
 
 
 ---
+### Project Structure 
+
+<pre> 
+  kyara/
+  ├── index.html # Main HTML file 
+  ├── css/ 
+  │ └── style.css # All CSS styles 
+  ├── js/
+  │ └── script.js # All JavaScript functionality
+  ├── images/ # All image assets
+  │ ├── icon.png # Logo
+  │ ├── email.png # Contact icons
+  │ ├── phone.png
+  │ └── ... 
+  ├── videos/ # Video assets 
+  │ ├── background.mp4 # Hero background 
+  │ ├── product1.mp4 # Product videos
+  │ └── ...
+  └── README.md # This file 
+  
+   </pre>
 
 ## Installation
 
 ### Clone the repository
 
-  ```bash
+```bash
 git clone https://github.com/Vijay417-sys/Kyara.git
 cd kyara
 
 
+```
 ---
-##project Structute
 
-#kyara-beverages/
-├── index.html          # Main HTML file
-├── css/
-│   └── style.css       # All CSS styles
-├── js/
-│   └── script.js       # All JavaScript functionality
-├── images/             # All image assets
-│   ├── icon.png        # Logo
-│   ├── email.png       # Contact icons
-│   ├── phone.png
-│   └── ...
-├── videos/             # Video assets
-│   ├── background.mp4  # Hero background
-│   ├── product1.mp4    # Product videos
-│   └── ...
-└── README.md           # This file
-
-
-``` </pre>
-
-
-
-
-
-
-
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
